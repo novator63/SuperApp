@@ -14,7 +14,6 @@ public class WorkingFoldersManager {
             File dir = new File("SuperAppRoot/" + folder);
             if (!dir.exists()) {
                 dir.mkdir();
-                System.out.println("Создана папка: " + folder);
             }
         }
     }
